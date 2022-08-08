@@ -1,0 +1,102 @@
+@media (max-width: 1500px) {
+    .first-section {
+        padding-top: 160px;
+    }
+    .left-block-heading {
+        font-size: 44px;
+        line-height: 48px;
+    }
+    .left-block-bottom {
+        margin-bottom: 44px;
+    }
+    .left-block-text {
+        font-size: 18px;
+    }
+    .meeting-img {
+        max-width: 501px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navigation {
+        display: none;
+    }
+    .burger-bar {
+        display: block;
+    }
+    .first-sec-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-block-bottom {
+        margin-bottom: 0;
+    }
+    .first-sec-left-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-block-top {
+        text-align: center;
+    }
+    .left-block-btn {
+        margin-bottom: 60px;
+    }
+    .meeting-img {
+        max-width: 75%;
+    }
+    .left-block-text {
+        text-align: center;
+    }
+    .first-section {
+        padding-top: 80px;
+    }
+    .left-block-btn {
+        width: 240px;
+        height: 60px;
+    }
+    .btn-text {
+        font-size: 20px;
+    }
+    .header-block {
+        padding-top: 38px;
+    }
+}
+
+@media (max-width: 480px) {
+    .burger-bar {
+        font-size: 26px;
+    }
+    .logo-link {
+        font-size: 26px;
+    }
+    .first-section {
+        padding-top: 34px;
+    }
+    .left-block-heading {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .left-block-text {
+        font-size: 16px;
+    }
+    .left-block-bottom {
+        height: 85px;
+    }
+    .meeting-img {
+        max-width: 90%;
+    }
+    .left-block-btn {
+        width: 200px;
+        height: 48px;
+    }
+    .waving-img {
+        width: 24px;
+    }
+    .btn-text {
+        font-size: 16px;
+    }
+    .header-block {
+        padding-top: 32px;
+    }
+}

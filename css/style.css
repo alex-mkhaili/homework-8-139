@@ -19,6 +19,10 @@
     color: #4B647E;
     font-weight: 300;
 }
+.burger-bar {
+    display: none;
+    font-size: 32px;
+}
 .navigation {
     min-width: 581px;
 }
