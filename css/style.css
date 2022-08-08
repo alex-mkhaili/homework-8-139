@@ -1,0 +1,215 @@
+/* Header */
+
+.header-block {
+    max-width: 1738px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 67px;
+    margin: 0 auto;
+}
+.logo-link {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #3D37F1;
+}
+.logo-link span {
+    color: #4B647E;
+    font-weight: 300;
+}
+.navigation {
+    min-width: 581px;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item {
+    font-size:20px;
+    font-weight: 700;
+    color: #3D37F1;
+    text-transform: uppercase;
+}
+
+
+/* First section */
+
+.first-section {
+    padding-top: 262px;
+}
+.first-sec-block {
+    max-width: 1738px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.first-sec-left-block {
+    margin-top: 18px;
+}
+.left-block-top {
+    max-width: 600px;
+    margin-bottom: 42px;
+}
+.left-block-heading {
+    font-family: 'Lato', sans-serif;
+    font-size: 78px;
+    font-weight: 700;
+    color: #534D4D;
+    line-height: 109px;
+}
+.left-block-bottom {
+    max-width: 600px;
+    height: 100px;
+    margin-bottom: 85px;
+}
+.left-block-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400px;
+    color: #534D4D;
+    line-height: 32px;
+}
+.left-block-btn {
+    width: 265px;
+    height: 75px;
+    background-color: #3D37F1;
+    display: flex;
+    justify-content: center;
+    border-radius: 38px;
+}
+.btn-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.waving-img {
+    margin-right: 24.7px;
+}
+.btn-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    color: #fff;
+}
+.meeting-img {
+    max-width: 801px;
+}
+
+
+/* Second section */
+
+.second-section {
+    padding-top: 300px;
+}
+.second-sec-block {
+    max-width: 1200px;
+    padding: 0 15px 130px;
+    margin: 0 auto;
+}
+.heading-block {
+    text-align: center;
+}
+.heading-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3D37F1;
+    margin-bottom: 17px;
+}
+.heading-subtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #5A5454;
+    margin-bottom: 21px;
+}
+.heading-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #747474;
+    max-width: 712px;
+    margin: 0 auto;
+}
+
+/* Card blocks */
+
+.content-block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 67px;
+}
+.card-block {
+    width: 370px;
+    height: 451px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.card-block-icon {
+    width: 100px;
+    margin-bottom: 57px;
+}
+.card-description {
+    text-align: center;
+}
+.card-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 13.1px;
+}
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    width: 328px;
+    height: 62px;
+    margin-bottom: 11px;
+}
+.card-btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 12px 30px;
+    margin-bottom: 48px;
+    border-radius: 23px;
+}
+.card-btn-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+.card-block:nth-child(1) {
+    background-image: linear-gradient(#FBBA77, #DFA871);
+    margin-bottom: 60px;
+    margin-right: 30px;
+}
+.card-block:nth-child(2) {
+    background-image: linear-gradient(#41EAE3, #2293B7);
+    margin-bottom: 60px;
+    margin-right: 30px;
+}
+.card-block:nth-child(3) {
+    background-image: linear-gradient(#69529F, #463864);
+    margin-bottom: 60px;
+}
+.card-block:nth-child(4) {
+    background-image: linear-gradient(#4386D2, #0962C5);
+    margin-right: 30px;
+}
+.card-block:nth-child(5) {
+    background-image: linear-gradient(#A5A2F6, #564FD6);
+    margin-right: 30px;
+}
+.card-block:nth-child(6) {
+    background-image: linear-gradient(#FF8088, #984141);
+}
